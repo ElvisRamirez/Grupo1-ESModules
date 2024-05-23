@@ -1,0 +1,78 @@
+/* Estilos de la lista de tareas */
+.task-list {
+  margin-top: 20px;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+  background-color: #f8f9fa; /* Color de fondo más claro */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del contenedor principal */
+.container {
+  max-width: 80%;
+  margin: 20px auto; /* Añadido un espacio en los márgenes */
+  padding: 20px;
+  background-color: #ffffff; /* Color de fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+/* Estilos para el título principal */
+h1 {
+  text-align: center;
+  color: #007bff; /* Color azul más vibrante */
+}
+
+/* Estilos para etiquetas de formulario */
+.form-label {
+  font-weight: bold;
+  color: #007bff; /* Color azul */
+}
+
+/* Estilos para campos de formulario */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Estilos para ítems de la lista */
+.list-group-item {
+  background-color: #f1f1f1; /* Color de fondo gris claro */
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Estilos al pasar el mouse sobre los ítems de la lista */
+.list-group-item:hover {
+  background-color: #eaeaea; /* Color de fondo gris un poco más oscuro */
+}
+
+/* Estilos para botones de eliminar y alternar tarea */
+.delete-task-btn,
+.toggle-task-btn {
+  font-size: 14px;
+}
+
+/* Estilos para el botón de eliminar tarea */
+.delete-task-btn {
+  background-color: #dc3545; /* Color rojo */
+  color: #ffffff; /* Texto en blanco */
+  border: none;
+}
+
+.delete-task-btn:hover {
+  background-color: #c82333; /* Color rojo más oscuro al pasar el mouse */
+}
+
+/* Estilos para el botón de alternar tarea */
+.toggle-task-btn {
+  background-color: #28a745; /* Color verde */
+  color: #ffffff; /* Texto en blanco */
+  border: none;
+}
+
+.toggle-task-btn:hover {
+  background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
