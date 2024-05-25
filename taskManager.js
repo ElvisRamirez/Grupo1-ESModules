@@ -44,10 +44,12 @@ const taskManager = (() => {
     renderTasks();
   };
 
+
   // Función para guardar las tareas en el almacenamiento local
   const saveTasks = () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   };
+
 
   // Función para cargar las tareas desde el almacenamiento local
   const loadTasks = () => {
@@ -80,13 +82,14 @@ const taskManager = (() => {
       taskListElement.appendChild(taskItem);
     });
   };
-
+ 
   // Métodos públicos que se pueden acceder fuera del módulo
   return {
     addTask,
     deleteTask,
     toggleTaskStatus,
     loadTasks
+    
   };
 })();
 

@@ -1,3 +1,4 @@
+
 import taskManager from './taskManager.js';
 
 // Cargar tareas al cargar la página
@@ -33,3 +34,4 @@ if (event.target.classList.contains("toggle-task-btn")) {
   taskManager.toggleTaskStatus(taskId);
 }
 });
+
