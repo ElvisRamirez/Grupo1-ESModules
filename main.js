@@ -25,11 +25,11 @@ document.getElementById("taskList").addEventListener("click", (event) => {
     // Eliminar la tarea utilizando el administrador de tareas
     taskManager.deleteTask(taskId);
   }
-  // Si se hace clic en el botón de alternar estado de tarea
-  if (event.target.classList.contains("toggle-task-btn")) {
-    // Obtener el ID de la tarea para cambiar su estado
-    const taskId = event.target.getAttribute("data-task-id");
-    // Cambiar el estado de la tarea utilizando el administrador de tareas
-    taskManager.toggleTaskStatus(taskId);
-  }
+// Si se hace clic en el botón de alternar estado de tarea
+if (event.target.classList.contains("toggle-task-btn")) {
+  // Obtener el ID de la tarea para cambiar su estado
+  const taskId = event.target.getAttribute("data-task-id");
+  // Cambiar el estado de la tarea utilizando el administrador de tareas
+  taskManager.toggleTaskStatus(taskId);
+}
 });
